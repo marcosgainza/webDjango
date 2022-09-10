@@ -55,7 +55,7 @@ ROOT_URLCONF = 'webDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [f'{BASE_DIR}/webDjango/Template'],
+        'DIRS': [f'{BASE_DIR}/webDjango/Template', f'{BASE_DIR}/AppCoder/Template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

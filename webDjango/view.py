@@ -1,9 +1,11 @@
 from django.http import HttpResponse
 from django.template import loader
 from AppCoder.models import Curso
-
 def home(self, name):
     return HttpResponse(f"hola soy {name}")
+    
+def inicio(request):
+    return HttpResponse(f'hola soy un inicio de webDjango')
 
 def homePage(self):
     lista = [1,2,3,4,5,6,7,8,9]
